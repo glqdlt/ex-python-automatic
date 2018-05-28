@@ -7,3 +7,7 @@ if __name__ == '__main__':
         print('spam = ' + str(spam))
         # spam = spam + 1
         spam += 1
+
+        if spam == 3:
+            print('break!')
+            break
